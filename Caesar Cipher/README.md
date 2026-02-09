@@ -35,7 +35,7 @@ b = |\varphi(A)|
 \end{alignedat}
 ```
 
-be the cardinality of the bijection.
+be the cardinality of the bijection $$\varphi$$.
 
 ## Encryption
 ### General
@@ -59,7 +59,7 @@ where
 - $c$ is the **ciphertext letter index** (the result after encryption).
 
 > [!IMPORTANT]
-> Key information users need to know to achieve their goal.
+> Including $$0$$ in the range of $$\varphi$$ avoids unnecessary conditional logic in the modular arithmetic.
 
 ### Theoretical Implementation
 
