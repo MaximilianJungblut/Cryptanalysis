@@ -28,11 +28,13 @@ $$
 $$
 
 be the bijection and
+
 $$
 \begin{alignedat}{1}
 b = |\varphi(A)|
 \end{alignedat}
 $$
+
 be the cardinality of the bijection.
 
 
