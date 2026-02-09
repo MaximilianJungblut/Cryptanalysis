@@ -37,6 +37,9 @@ $$
 
 be the cardinality of the bijection.
 
+```math
+\{a\}
+```
 
 ## Encryption
 ### General
