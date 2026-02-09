@@ -10,7 +10,7 @@ sfsdfsdfsdfsd
 Let
 
 $$
-\begin{alignedat}{2}
+\begin{alignedat}{1}
 A = \{ \mathrm{A}, \mathrm{B}, \dots, \mathrm{Z} \}
 \end{alignedat}
 $$
@@ -28,7 +28,11 @@ $$
 $$
 
 be the bijection and
-$$b = |\varphi(A)|$$
+$$
+\begin{alignedat}{1}
+b = |\varphi(A)|
+\end{alignedat}
+$$
 be the cardinality of the bijection.
 
 
