@@ -58,8 +58,8 @@ where
 - $k$ is the **secret shift** (an integer, required to be $$0 < k \ne b$$),
 - $c$ is the **ciphertext letter index** (the result after encryption).
 
-> [!IMPORTANT]
-> Including $$0$$ in the range of $$\varphi$$ avoids unnecessary conditional logic in the modular arithmetic.
+> [!IMPORTANT]  
+> Including $0$ in the range of $\varphi$ avoids unnecessary conditional logic in the modular arithmetic. If we had instead defined $\varphi(\mathrm{A}) = 1$ and $\varphi(\mathrm{Z}) = 26$, the computation $c = p + k \bmod b$ could produce $c = 0$ when $p + k = b$. $0$ would **not** correspond to any letter (since letters start at 1), requiring extra logic.
 
 ### Theoretical Implementation
 
