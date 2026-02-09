@@ -3,15 +3,19 @@
 # Definition
 sfsdfsdfsdfsd
 
+
 # Calculation
 ## Constants
-Let
-$$A = \{ \mathrm{A}, \mathrm{B}, \dots, \mathrm{Z} \}$$
-be the alphabet,
 
-<p align="center">
-  <img src="assets/equation.svg" alt="Responsive SVG">
-</p>
+Let
+
+$$
+\begin{alignedat}{2}
+A = \{ \mathrm{A}, \mathrm{B}, \dots, \mathrm{Z} \}
+\end{alignedat}
+$$
+
+be the alphabet,
 
 $$
 \varphi \colon A \xrightarrow{\sim} \mathbb{N}/25\mathbb{N},\\
@@ -23,7 +27,7 @@ $$
 \end{alignedat}
 $$
 
-be the bijection and 
+be the bijection and
 $$b = |\varphi(A)|$$
 be the cardinality of the bijection.
 
