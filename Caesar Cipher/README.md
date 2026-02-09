@@ -45,8 +45,8 @@ $$
 
 where
 
-- $p$ is the **plaintext letter index** (i.e. $\varphi(\text{plaintext letter})$),
-- $k$ is the **secret shift** (an integer, required to be $ 0 < k \ne b$),
+- $p$ is the **plaintext letter index** (i.e. $$\varphi(\text{plaintext letter})$$),
+- $k$ is the **secret shift** (an integer, required to be $$ 0 < k \ne b$$),
 - $c$ is the **ciphertext letter index** (the result after encryption).
 
 > [!IMPORTANT]
