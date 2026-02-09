@@ -9,23 +9,13 @@ sfsdfsdfsdfsd
 
 Let
 
-$$
+```math
 \begin{alignedat}{1}
 A = \{ \mathrm{A}, \mathrm{B}, \dots, \mathrm{Z} \}
 \end{alignedat}
-$$
+```
 
 be the alphabet,
-
-$$
-\varphi \colon A \xrightarrow{\sim} \mathbb{N}/25\mathbb{N},\\
-\begin{alignedat}{2}
-&\varphi(\mathrm{A}) &&= 0, \\
-&\varphi(\mathrm{B}) &&= 1, \\
-& &&\vdots \\
-&\varphi(\mathrm{Z}) &&= 25.
-\end{alignedat}
-$$
 
 ```math
 \varphi \colon A \xrightarrow{\sim} \mathbb{N}/25\mathbb{N},\\
@@ -39,17 +29,13 @@ $$
 
 be the bijection and
 
-$$
+```math
 \begin{alignedat}{1}
 b = |\varphi(A)|
 \end{alignedat}
-$$
+```
 
 be the cardinality of the bijection.
-
-```math
-\{a\}
-```
 
 ## Encryption
 ### General
