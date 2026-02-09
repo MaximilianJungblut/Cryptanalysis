@@ -9,6 +9,10 @@ Let
 $$A = \{ \mathrm{A}, \mathrm{B}, \dots, \mathrm{Z} \}$$
 be the alphabet,
 
+<p align="center">
+  <img src="assets/equation.svg" alt="Responsive SVG">
+</p>
+
 $$
 \varphi \colon A \xrightarrow{\sim} \mathbb{N}/25\mathbb{N},\\
 \begin{alignedat}{2}
