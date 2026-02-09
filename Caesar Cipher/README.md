@@ -27,6 +27,16 @@ $$
 \end{alignedat}
 $$
 
+```math
+\varphi \colon A \xrightarrow{\sim} \mathbb{N}/25\mathbb{N},\\
+\begin{alignedat}{2}
+&\varphi(\mathrm{A}) &&= 0, \\
+&\varphi(\mathrm{B}) &&= 1, \\
+& &&\vdots \\
+&\varphi(\mathrm{Z}) &&= 25.
+\end{alignedat}
+```
+
 be the bijection and
 
 $$
