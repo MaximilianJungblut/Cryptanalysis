@@ -9,7 +9,9 @@ Its earliest known use dates back to around **50 BC** by **Julius Caesar**, who 
 Because it is a simple cyclic shift with only 26 possible keys (in the English alphabet), it can be broken very easily using:
 - **brute force** (trying all 26 shifts),  
 - **frequency analysis** (comparing letter frequencies in the ciphertext to those of natural language),  
-- or a **known-plaintext attack** (if even a small fragment of the plaintext is known or can be assumed to appear in the message, the shift $k$ can be solved directly from the equation $c \equiv p + k \pmod{26}$).
+- or a **known-plaintext attack** (if even a small fragment of the plaintext is known or can be assumed to appear in the message, the shift $k$ can be solved directly from the equation $c \equiv p + k \pmod{b}$).
+
+The **known-plaintext attack** is illustrated under the section *Solving*.
 
 For practical encryption and decryption by hand, people often use a **tabula recta** (a table with the plaintext alphabet in the top row and the shifted ciphertext alphabet below it, repeated for each possible shift).
 
