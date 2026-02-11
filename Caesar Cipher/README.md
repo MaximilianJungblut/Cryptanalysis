@@ -1,7 +1,26 @@
 
 ![Project Cover](assets/cover.gif)
 # History
-...
+The **Caesar cipher** is one of the most primitive cryptographic algorithms.
+It is essentially a **monoalphabetic substitution** that applies a fixed shift (rotation) to every letter in the alphabet.
+
+Its earliest known use dates back to around **50 BC** by **Julius Caesar**, who reportedly used a shift of 3 to protect military messages.
+
+Because it is a simple cyclic shift with only 26 possible keys (in the English alphabet), it can be broken very easily using:
+- **brute force** (trying all 26 shifts),  
+- **frequency analysis** (comparing letter frequencies in the ciphertext to those of natural language),  
+- or a **known-plaintext attack** (if even a small fragment of the plaintext is known or can be assumed to appear in the message, the shift $k$ can be solved directly from the equation $c \equiv p + k \pmod{26}$).
+
+For practical encryption and decryption by hand, people often use a **tabula recta** (a table with the plaintext alphabet in the top row and the shifted ciphertext alphabet below it, repeated for each possible shift).
+
+## Example ($k = 23$)
+
+Plain|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|
+|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
+Cipher|X|Y|Z|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|
+
+FOOD TRUCK $=>$ CLLA QORZH \
+CLLA QORZH $=>$ FOOD TRUCK
 
 
 # Calculation
