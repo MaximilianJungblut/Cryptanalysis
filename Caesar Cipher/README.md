@@ -1,6 +1,6 @@
 
 ![Project Cover](assets/cover.gif)
-# History
+# Information
 The **Caesar cipher** is one of the most primitive cryptographic algorithms.
 It is essentially a **monoalphabetic substitution** that applies a fixed shift (rotation) to every letter in the alphabet.
 
@@ -11,18 +11,21 @@ Because it is a simple cyclic shift with only 26 possible keys (in the English a
 - **frequency analysis** (comparing letter frequencies in the ciphertext to those of natural language),  
 - or a **known-plaintext attack** (if even a small fragment of the plaintext is known or can be assumed to appear in the message, the shift $k$ can be solved directly from the equation $c \equiv p + k \pmod{b}$).
 
-The **known-plaintext attack** is illustrated under the section *Solving*.
+The **known-plaintext** attack is illustrated in the *Solving* section.
+After covering the theoretical aspects of encryption, decryption, and solving (breaking), we turn to practical applications of the Caesar cipher for **obfuscation** - specifically, disguising a real location by generating a **matrix of plausible but false coordinates**.
 
-For practical encryption and decryption by hand, people often use a **tabula recta** (a table with the plaintext alphabet in the top row and the shifted ciphertext alphabet below it, repeated for each possible shift).
+For practical encryption and decryption by hand, people often use a **tabula recta** (a table with the plain alphabet in the top row and the shifted cipher alphabet below it, for the selected shift $k$).
 
-## Example ($k = 23$)
+## Tabula Recta ($k = 23$)
 
 Plain|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|X|Y|Z|
 |-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|-|
 Cipher|X|Y|Z|A|B|C|D|E|F|G|H|I|J|K|L|M|N|O|P|Q|R|S|T|U|V|W|
 
-FOOD TRUCK $=>$ CLLA QORZH \
-CLLA QORZH $=>$ FOOD TRUCK
+### Example
+
+**ENCRYPTION**: FOOD TRUCK $=>$ CLLA QORZH \
+**DECRYPTION**: CLLA QORZH $=>$ FOOD TRUCK
 
 
 # Calculation
